@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron", sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 2em auto;
+}
+.navbar-container{
+    width: 100%;
+    float: left;
+}
+img[alt="brand-logo"]{
+    float: left;
+    width: 110px;
+}
+
+.list{
+    margin:1em 10em;
+    float: left;
+    padding:0;
+    list-style: none;
+    display: inline;
+}
+
+.list-item{
+    margin-left: 2em;
+    list-style:none;
+    display:inline;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.button-group{
+    margin-left: em;
+}
+
+.search-icon{
+    float: left;
+    width: 20px;
+    padding-top: .6em;
+    margin-left: 8em;
+    
+}
+.search-icon svg{
+    width: 100%;
+}
+.nav-button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: .4em 2.8em;
+    border-radius: 8px;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-family: Poppins;
+}
+
+/* Hero Section */
+
+
+img[alt="square-pattern"]{
+    position: absolute;
+    bottom: 35px;
+    width: 280px;
+    left: 192px;
+    
+}
+
+img[alt="person-hero-image"]{
+    position: absolute;
+    z-index: 100;
+    bottom: 80px;
+    width: 350px;
+}
+img[alt="globe-pattern"]{
+    position: absolute;
+    right: 695px;
+    top: 110px;
+    width: 60px;
+    
+}
+img[alt="star-pattern"]{
+    position: relative;
+    left: 1080px;
+    top: 20px;
+    width: 40px;
+    
+}
+
+
+.hero-container-right{
+    float: right;
+    width: 65%;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.hero-heading{
+    font-size: 3rem;
+}
+.hero-description{
+    font-size: .8rem;
+    padding: 2em 10em;
+}
+.button-email{
+    background-color: transparent;
+    padding: .4em 2em;
+    border-radius: 6px;
+
+}
+.button-join{
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+    padding: .4em 1em;
+    margin-top: 2em;
+    /* margin-bottom: 4em; */
+}
+
+.contact-heading{
+    margin-top: 6em;
+    margin-bottom: .6em;
+    font-size: .9rem;
+    font-weight: normal;
+}
+
+img[alt="star-pattern-bottom"]{
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+    width: 30px;
+}
